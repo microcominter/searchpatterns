@@ -1,0 +1,24 @@
+.terms-container {
+    background-color: black;
+    color: white;
+    padding: 50px;
+  }
+  
+  .terms-container h1 {
+    color: rgb(255, 55, 0);
+    font-family: 'denton';
+  }
+  
+  .terms-container h2 {
+    color: rgb(255, 55, 0);
+            font-family: 'denton';
+            font-size: 40px;
+            margin-top: 50px;
+  }
+  
+  .terms-container p {
+    font-family: 'gilroy';
+            letter-spacing: 0.5px;
+            font-size: 18px;
+  }
+  

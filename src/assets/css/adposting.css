@@ -1,0 +1,260 @@
+.search-patterns {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 250px;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start !important;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-icon {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .highlight {
+    color: #ff6b00;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  
+  .sidebar-nav a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-nav a.active {
+    font-weight: bold;
+  }
+  
+  .upgrade-button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .recent-searches {
+    margin-top: auto;
+  }
+  
+  .recent-searches h6 {
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .recent-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 160px;
+  }
+  
+  .recent-list a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+  
+  .create-campaign-button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .user-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  
+  .content-nav {
+    display: flex;
+    padding: 0 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .content-nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .content-nav a.active {
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+  }
+  
+  .content-area {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .view-options {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .view-button {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .question-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .question-card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-card h2 {
+    margin-bottom: 15px;
+  }
+  
+  .question-card table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .question-card th,
+  .question-card td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .question-card th {
+    color: #888;
+    font-weight: normal;
+  }
+  
+  .badge {
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+  
+  .badge.success {
+    background-color: #e6f4ea;
+    color: #1e8e3e;
+  }
+  
+  .badge.danger {
+    background-color: #fce8e6;
+    color: #d93025;
+  }
+  
+  .main-footer {
+    padding: 20px;
+    background-color: white;
+    border-top: 1px solid #ccc;
+  }
+  
+  .footer-search {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 5px 15px;
+  }
+  
+  .footer-search input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 5px;
+    margin: 0 10px;
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }

@@ -1,0 +1,14 @@
+.answer-box {
+    
+    padding: 150px 210px 150px 260px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    
+    .btn-check:focus+.btn, .btn:focus {
+      outline: 0;
+      box-shadow: none;
+      border: none;
+  }
+  
+  

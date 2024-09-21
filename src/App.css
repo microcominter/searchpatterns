@@ -1,0 +1,249 @@
+
+@font-face {
+  font-family: 'denton';
+  src: url('/src/assets/fonts/DentonTextTest-Black.otf') format('opentype');
+  font-weight: 900;
+  /* Black font weight */
+}
+.cl-internal-df7v37{
+  display: none;
+}
+
+.cl-internal-1j7ahlv {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 2.75rem;
+  height: 2.75rem;
+  background-color: rgba(0, 0, 0, 0.41);
+  background-clip: padding-box;
+  position: relative;
+}
+
+/* chartloading */
+#chartloading{
+  display: flex;
+  align-items: center;
+  margin: 120px 0px;
+  justify-content: center;
+}
+.sticky-buttons-container {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 10px 0;
+}
+
+#apidatatable{
+  background-color: black !important;
+  text-transform: capitalize;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#history-search 
+{
+  width: 470px;
+  height: 70vh;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(28 27 26);
+  color: #fff;
+  border-radius: 15px;
+  overflow: scroll;
+}
+/* Header section  */
+#history-search #head-sec{
+  display: flex;
+  justify-content: space-between;
+}
+#history-search #head-icons i{
+  margin: 3px;
+}
+/* Search section  */
+#history-search #search-bar{
+  border: 2px solid #FA3C00;
+  margin: 10px;
+  margin-left: 0px;
+  background-color: #2f2f2f;
+  border-radius: 5px;
+  width: 430px;
+}
+#history-search .search-icon{
+  margin: 5px;
+}
+#history-search button{
+  background-color: transparent;
+  border: none;
+}
+#history-search .search-input{
+  background-color: transparent;
+  border: none;
+  margin: 3px 10px;
+  color: #fff;
+}
+#history-search #search-bar i{
+  color: #fff;
+  margin: 3px;
+}
+#history-search textarea:focus, input:focus{
+  outline: none;
+  }
+/* third section  */
+#history-search ul { 
+  list-style: none; 
+  padding-left: 0px !important; 
+}
+#history-search li { 
+  position: relative; 
+  color: #fff;
+}
+#history-search a {
+  color: #fff;    
+  display: inline-block;
+  padding: 15px 8px;
+  position: relative;
+}
+#history-search a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: orange;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+#history-search a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+@media screen and (max-height: 300px) {
+  #history-search ul {
+        margin-top: 40px;
+    }
+}
+
+/* forth section  */
+#info-sec{
+  margin-top: 10px;
+}
+#history-search  .line{
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+
+}
+#history-search .line i{
+  padding-right: 8px;
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .search-container h1 {
+    color: white;
+    padding-bottom: 25px;
+    position: relative;
+    font-family: denton;
+    font-weight: 900;
+    font-size: 44px !important;
+    letter-spacing: -0.4px;
+    width: 100%;
+    left: 1px !important;
+  }
+
+  h1 {
+    font-size: 1.5rem !important;
+  }
+
+  #search .heading {
+    margin-left: 81px;
+    font-size: 10px;
+  }
+
+  .slider:before {
+    width: 20px;
+    height: 20px;
+  }
+
+  .switch {
+    width: 50px;
+    height: 28px;
+  }
+
+  .navbar-brand img {
+    width: 230px !important;
+    padding-top: 0px !important;
+  }
+
+  #navbar button {
+    background-color: #000000;
+    color: rgb(254, 90, 7);
+  }
+
+  #search .search-icon {
+    width: 40px;
+    height: 40px;
+    /* bottom: 0px !important;
+    left: 0px !important; */
+  }
+
+  #search .prefixbtn {
+    font-size: 13px;
+  }
+
+  .search-bar {
+    padding: 2px !important;
+  }
+
+  #search .search .search-input {
+    font-size: 13px;
+    height: 35px !important;
+  }
+
+  #search p {
+    margin-right: 0px;
+  }
+
+  #SearchPaternftr .container ul li a {
+    margin-left: 20px;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 1300px) {
+  #navbarSupportedContent {
+    margin-left: 7%;
+  }
+
+  .navbar-dark .navbar-brand img {
+    width: 230px !important;
+  }
+
+  #navbar button {
+    font-size: 15px;
+  }
+}
