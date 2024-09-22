@@ -7,7 +7,7 @@ const Groq = require('groq-sdk');
 const redisClient = require('../../config/redis');
 let conversations = [];
 let summaries = [];
-const groq = new Groq({ apiKey: "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" });
+const groq = new Groq({ apiKey: `${process.env.GROQ_API_KEY}` });
 // Middleware to check if the API key is valid
 // const validateApiKey = (req, res, next) => {
 //     const apiKey = req.headers['authorization'];
@@ -17,7 +17,7 @@ const groq = new Groq({ apiKey: "gsk_jJU1uYG2YCmGNH32wG3JWGdyb3FYXMpzLKTuxpzhxIy
 //         res.status(403).json({ error: 'Invalid API key' });
 //     }
 // };
-SERPER_API = "729640657296e51b6a87b0b3f44f663ee621b9c4"
+SERPER_API = `${process.env.SERPER_API}`
 SERPER_SEARCH_ENDPOINT = "https://google.serper.dev/search"
 REFERENCE_COUNT = 15
 DEFAULT_SEARCH_ENGINE_TIMEOUT = 5000

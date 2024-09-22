@@ -16,7 +16,7 @@ module.exports.user_details = async function (req, res) {
 
         if (!user) {
             // New user, fetch IP info and save
-            const ipInfoResponse = await axios.get(`https://ipinfo.io/${ipAddress}/json?token=5b59fffba3d908`);
+            const ipInfoResponse = await axios.get(`https://ipinfo.io/${ipAddress}/json?token=${process.env.IPINFO_TOKEN}`);
             const ipInfo = ipInfoResponse.data;
 
             // Save the new user information
