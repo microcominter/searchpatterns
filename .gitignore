@@ -10,7 +10,7 @@ node_modules/
 # Environment variables
 .env
 /config/enviroment.js
-
+/helper/searchapi.js
 # Build outputs
 
 
